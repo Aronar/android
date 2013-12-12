@@ -327,7 +327,6 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" remote="aosp" revision="master" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" remote="aosp" revision="master" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="aosp" revision="master" />
-  <project path="hardware/ril" name="platform/hardware/ril" remote="aosp" revision="master" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-11.0" groups="exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-11.0" />
