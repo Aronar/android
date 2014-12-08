@@ -38,10 +38,10 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CarbonDev/android_build" groups="pdk" >
+  <project path="build" name="Aronar/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CarbonDev/android" />
+  <project path="android" name="Aronar/android" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="art" name="CarbonDev/android_art" />
   <project path="bionic" name="CarbonDev/android_bionic" groups="pdk" />
@@ -513,5 +513,10 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="vendor/carbon" name="CarbonDev/android_vendor_carbon" />
+  <project path="vendor/carbon" name="Aronar/android_vendor_carbon" />
+  <project path="device/htc/evita" name="Aronar/android_device_htc_evita" groups="device" remote="gh" revision="cm-11.0" />
+  <project path="device/htc/msm8960-common" name="Aronar/android_device_htc_msm8960-common" groups="device" remote="gh" revision="cm-11.0" />
+  <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
+  <project path="device/htc/s4-common" name="Aronar/android_device_htc_s4-common" groups="device" remote="gh" revision="cm-11.0" />
 </manifest>
